@@ -27,4 +27,5 @@ document.addEventListener("click", (event) => {
 // Load Header Component on page load
 document.addEventListener("DOMContentLoaded", () => {
   loadComponent("header-placeholder", "components/header.html");
+  loadComponent("hero-placeholder", "components/hero.html");
 });
