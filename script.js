@@ -34,4 +34,5 @@ document.addEventListener("DOMContentLoaded", () => {
   loadComponent("stats-placeholder", "components/stats.html");
   loadComponent("footer-design-placeholder", "components/footer-design.html");
   loadComponent("testimonial-placeholder", "components/testimonial.html");
+  loadComponent("blog-placeholder", "components/blog.html");
 });
