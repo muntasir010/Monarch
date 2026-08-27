@@ -29,4 +29,5 @@ document.addEventListener("DOMContentLoaded", () => {
   loadComponent("header-placeholder", "components/header.html");
   loadComponent("hero-placeholder", "components/hero.html");
   loadComponent("client-placeholder", "components/client.html");
+  loadComponent("community-placeholder", "components/community.html");
 });
