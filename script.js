@@ -30,4 +30,5 @@ document.addEventListener("DOMContentLoaded", () => {
   loadComponent("hero-placeholder", "components/hero.html");
   loadComponent("client-placeholder", "components/client.html");
   loadComponent("community-placeholder", "components/community.html");
+  loadComponent("experience-placeholder", "components/experience.html");
 });
