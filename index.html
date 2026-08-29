@@ -7,6 +7,15 @@
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Add this Tailwind MutationObserver Configuration -->
+  <script>
+    tailwind.config = {
+      corePlugins: {
+        preflight: true,
+      }
+    }
+  </script>
 </head>
 <body class="bg-gray-50">
 
@@ -14,7 +23,7 @@
   <div id="header-placeholder"></div>
 
   <!-- Hero Section Placeholder -->
-   <div id="hero-placeholder"></div>
+  <div id="hero-placeholder"></div>
 
   <!-- Clients Section Placeholder -->
   <div id="client-placeholder"></div>
@@ -42,8 +51,6 @@
 
   <!-- Footer Section Placeholder -->
   <div id="footer-placeholder"></div>
-
-  <!-- Page Content Placeholder (If needed later) -->
 
   <!-- Component Loader Script -->
   <script src="script.js"></script>
